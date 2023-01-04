@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F4F4F4;
+}
+
+.app-container{
+    display: flex;
+    height: 38.5em;
+}
+
+.app-container-note-edit{
+    padding-left: 102px;
+    padding-right: 102px;
+    height: 28.9em;
+}
+
+.input{
+    appearance: none;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.text-arear{
+    height: 100%;
+    resize: none;
+}
+
+.lateral-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E8;
+    width: 80px;
+    height: 100%;
+    padding-top: 96px;
+}
+
+.btns-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 131.5px;
+}
+
+.lateral-btn{
+    border: none;
+}
+
+/* para quitar el hover default de los botones */
+.lateral-btn:hover{
+    background-color: #E9E9E8;
+}
+
+.back-arrow{
+    border: none;
+    background-color: #F4F4F4;
+}
+
+
+.svg{
+    width: 48px;
+    height: 48px;
+    transition: width 0.2s, height 0.2s;
+}
+.svg:hover{
+    width: 56px;
+    height: 56px;
+}
+
+.btn{
+    transition: width 0.5s;
+    width: 56px;
+}
+
+.btn:hover{
+    width: 66px;
+}
+
+.header{
+    width: 79.3em;
+    height: 80px;
+    background: #E9E9E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-note-edit{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.header-search{
+    width: 816px;
+    height: 40px;
+    border: none;
+    border-radius: 24px;
+    background: #F4F4F4;
+    font-size: 16px;
+    line-height: 19.5px;
+    padding-left: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;    
+}
+
+.search-icon{
+    position: relative;
+    right: 50px;
+    bottom: -1px;
+}
+
+.note-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 48px;
+    margin-top: 77px;
+    align-items: flex-start;
+
+}
+
+.note{
+    width: 280px;
+    max-height: 317px;
+    background: #F4F4F4;
+    border: 1px solid #FFB775;
+    border-radius: 16px;
+    padding: 24px;
+    color: #26211D;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+
+.note-edit-container{
+    width: 100%;
+    height: 100%;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.note:hover{
+    box-shadow: 0px 10px 8px 0 rgba(38, 33, 29, 0.3); 
+}
+
+.note-title{
+    margin: 0px;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 22px;
+}
+
+.note-content{
+    overflow-wrap: break-word;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.btn-delete-note{
+    border: none;
+    background-color: transparent;
+}
+
+.delete-simbol{
+    color: rgba(255, 57, 46, 0.4);
+    width: 25px;
+    transition: 0.2s color;
+}
+
+.delete-simbol:hover{
+    color: rgba(255, 57, 46, 1);
+}
+
+.note-title-delete-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
