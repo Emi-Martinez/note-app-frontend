@@ -1,7 +1,7 @@
 # note-app-frontend
 This is the frontend for note-app application.
 
-Whith note-app you can:
+With note-app you can:
 * Create notes.
 * Update your notes whenever you want.
 * Delete them when you don't need them anymore.
