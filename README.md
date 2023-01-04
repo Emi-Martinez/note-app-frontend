@@ -1,6 +1,12 @@
 # note-app-frontend
 This is the frontend for note-app application.
 
+Whith note-app you can:
+* Create notes.
+* Update your notes whenever you want.
+* Delete them when you don't need them anymore.
+
+
 ## How to use
 Before you run this app, you must clone and run it's [back-end](https://github.com/Emi-Martinez/note-app-backend).
 
