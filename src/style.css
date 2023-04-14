@@ -6,7 +6,8 @@ body{
 
 .app-container{
     display: flex;
-    height: 38.5em;
+    height: 57.9em;
+    width: 100%;
 }
 
 .app-container-note-edit{
@@ -36,8 +37,6 @@ body{
     flex-direction: column;
     background-color: #E9E9E8;
     width: 80px;
-    height: 100%;
-    padding-top: 96px;
 }
 
 .btns-container{
@@ -49,6 +48,7 @@ body{
 
 .lateral-btn{
     border: none;
+    padding-top: 96px;
 }
 
 /* para quitar el hover default de los botones */
@@ -73,16 +73,15 @@ body{
 }
 
 .btn{
-    transition: width 0.5s;
+    transition: width 0.2s;
     width: 56px;
 }
 
 .btn:hover{
-    width: 66px;
+    width: 63px;
 }
-
+/* 1542 */
 .header{
-    width: 79.3em;
     height: 80px;
     background: #E9E9E8;
     display: flex;
@@ -125,7 +124,6 @@ body{
     margin-left: 48px;
     margin-top: 77px;
     align-items: flex-start;
-
 }
 
 .note{
@@ -188,4 +186,8 @@ body{
     justify-content: space-between;
     margin: 0px;
     padding: 0px;
+}
+
+.centro{
+    width: 100%;
 }

@@ -110,7 +110,7 @@ export default function App(){
                 <Lateralbar
                     newNote={handleClickNewNote}
                 />
-                <div>
+                <div className="centro">
                     <Header
                         listMode={editingNote}
                         setNotes={setNotes}
